@@ -1,0 +1,119 @@
+body{
+    background-image: linear-gradient(to right, #1d9cdb, #204157);
+    text-align: center;
+   
+   
+}
+h1{
+    color:black;
+    display: inline-block;
+    width: 80px;
+    font-size: 70px;
+    text-align: center;
+    border-width: none;
+}
+h2{
+    color: turquoise;
+    font-size: 80px;
+    margin-top: 50em auto;
+    text-decoration: underline;
+}
+
+#start{
+    width: 130px;
+    height: 60px;
+    background-color: rgb(42, 42, 199);
+    color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+}
+#stop{
+    width: 130px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+}
+#reset{
+    width: 130px;
+    height: 60px;
+    background-color: purple;
+    color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px;
+}
+#start:active, #stop:active, #reset:active{
+    font-size: 35px;
+}
+
+
+@media(max-width: 450px){
+    h1{
+        color:black;
+        display: inline-block;
+        width: 60px;
+        font-size: 55px;
+        text-align: center;
+        border-width: none;
+        text-align: center;
+    }
+}
+@media(max-width: 450px){
+    h2{
+        color: turquoise;
+        font-size: 45px;
+        margin: 70px auto;
+        text-decoration: underline;
+    }
+}
+@media(max-width: 450px){
+    #start{
+        width: 95px;
+        height: 50px;
+        background-color: rgb(42, 42, 199);
+        color: white;
+        border-radius: 100%;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
+@media(max-width: 450px){
+    #stop{
+        width: 95px;
+        height: 50px;
+        background-color:red;
+        color: white;
+        border-radius: 100%;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
+@media(max-width: 450px){
+    #reset{
+        width: 95px;
+        height: 50px;
+        background-color:purple;
+        color: white;
+        border-radius: 100%;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 5px;
+    }
+}
